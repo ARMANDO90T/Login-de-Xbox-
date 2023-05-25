@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Artista.Fragment_artistadet"
+    app:startDestination="@+id/navHome">
+
+    <com.google.android.material.appbar.AppBarLayout
+
+        android:id="@+id/abArtistaDet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+
+            android:id="@+id/tbArtistaDet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:theme="@style/Theme.ArteLista2"
+        tools:context=".ui.fragment_artistadet">
+
+        <ImageView
+            android:id="@+id/imgArtistaDet"
+            android:layout_width="140dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="@dimen/margen7"
+            android:background="@drawable/nicaragua"
+            android:contentDescription="@string/strArtista"
+            app:layout_constraintHorizontal_bias="0.501"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvPaisArtistaDet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strCiudad"
+            android:textSize="@dimen/tamtexto5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgArtistaDet">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/tvAcercaArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strAcercaDe"
+            android:textColor="@color/purple_500"
+            android:textSize="@dimen/tamtexto5"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvPaisArtistaDet">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/btnAcercaDe"
+            android:layout_width="@dimen/margen6"
+            android:layout_height="@dimen/margen6"
+            android:background="@drawable/ic_down"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tvAcercaArtista"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+
+        <TextView
+            android:id="@+id/tvDescripcionArtista"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margen8"
+            android:padding="@dimen/margen8"
+            android:text="@string/strDescripcionQuienSoy"
+            android:textAlignment="center"
+            android:textSize="@dimen/tamtexto1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAcercaDe">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imgTwitter"
+            android:layout_width="@dimen/margen7"
+            android:layout_height="@dimen/margen7"
+            android:layout_marginTop="@dimen/margen7"
+            android:background="@drawable/simba"
+            android:scaleType="centerCrop"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnAcercaDe"
+            tools:ignore="ContentDescription">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/tvTwitterCuenta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/strCuentaTwitter"
+            android:textAlignment="center"
+            android:textSize="@dimen/tamtexto1"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgTwitter">
+
+        </TextView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,54 @@
+<resources>
+
+    <string name="app_name">Xbox Game Pass</string>
+    <string name="hint_UserName">Nombre Usuario</string>
+    <string name="hint_Password">Contraseña</string>
+    <string name="strNoTieneCuenta">No tiene cuenta?</string>
+    <string name="strCreaUna">Cree una aquí</string>
+    <string name="stremail">Correo</string>
+    <string name="title_activity_menu">activity_menu</string>
+    <string name="strConfirmarCuenta">Confirmar Password</string>
+    <string name="strConfirmarPassword">Confirmar Contraseña</string>
+
+
+    <!-- Opciones del menú -->
+    <string name="strHome">Inicio</string>
+
+    <string name="strArtista">Artista</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transition_galeriadet">transicion_galeriadet</string>
+    <string name="strTituloArte">La Noche Mágica</string>
+    <string name="strLikeMeGusta">4.6 de 5 estrellas</string>
+    <string name="strPrecioArte">1,200</string>
+    <string name="strMoneda">$</string>
+
+    <!-- Pantalla galería detalle -->
+
+    <!-- Pantalla evento -->
+    <string name="strTituloEvento">Exposición Primavera en Oleo</string>
+    <string name="strCategoriaEvento">Armando</string>
+    <string name="strTituloMenu">XBOXSERIESX|S</string>
+    <string name="strEtiqLogo">XBOXSERIESX|S</string>
+    <string name="strLogin">Iniciar sesión</string>
+    <string name="strPaisArtista">Nicaragua</string>
+    <string name="strCategoriaArtista">Artista Plastico</string>
+    <string name="strCiudad">Nicaragua</string>
+    <string name="strAcercaDe">Acerca de mi</string>
+    <string name="strCuentaTwitter">ARMANDO OREO</string>
+    <string name="strCategoriaGaleria">Configurar un Control inalámbrico Xbox.</string>
+    <string name="strNombreArtista">Guia de configuración</string>
+    <string name="strDescripcionGaleria">Cuando conectes el control a la consola, asegúrate de comprobar las actualizaciones del firmware en tu control.</string>
+    <string name="strEvento">Perfil amigos</string>
+    <string name="strGaleria">Juegos</string>
+    <string name="strDescripcionQuienSoy">Sé de un héroe que se acercó tanto al sol, que la cera que unía sus alas se derritió y cayó a la tierra.</string>
+    <string name="strUbicacionEvento">Buscando amigos. . .</string>
+    <string name="strSitioWebEvento">APARECER EN LINEA</string>
+    <string name="strTelefonoEvento">8886-9620</string>
+    <string name="strDireccionEvento">Distrito 4. Managua, Nicaragua</string>
+
+
+
+    <!-- fin -->
+</resources>
